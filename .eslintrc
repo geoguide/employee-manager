@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "rallycoding",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "globals": { "fetch": false },
+  "rules": {
+      "arrow-body-style": 0,
+      "no-unused-vars": 1,
+      "comma-spacing": 1,
+      "object-curly-spacing": 1,
+      "space-before-blocks": 1,
+      "react/require-extension": 0,
+      "react/prop-types": 0,
+      "react/jsx-no-bind": 1,
+      "import/no-named-as-default-member": 1
+  },
+  "plugins": [
+    "react"
+  ]
+}
